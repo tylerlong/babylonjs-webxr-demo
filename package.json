@@ -1,7 +1,8 @@
 {
   "license": "MIT",
   "scripts": {
-    "serve": "webpack serve --progress"
+    "serve": "webpack serve --progress",
+    "release": "webpack --progress --mode production"
   },
   "dependencies": {
     "babylonjs": "5.0.0-alpha.62"
